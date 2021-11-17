@@ -21,7 +21,7 @@ public class DepartementServiceImplTest {
     @Order(1)
     public void testRetrieveAllDepartments(){
         List<Departement> listDepartements = ds.retrieveAllDepartements();
-        Assertions.assertTrue(listDepartements.size()>=0);
+        Assertions.assertTrue(listDepartements.size()>=1);
     }
 
     @Test

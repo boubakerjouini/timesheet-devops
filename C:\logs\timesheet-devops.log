@@ -1,0 +1,505 @@
+2021-11-17 15:20:53.240  INFO 10056 --- [main] t.e.t.TimesheetDevopsApplicationTests    : Starting TimesheetDevopsApplicationTests using Java 1.8.0_312 on MACs-MacBook-Pro.local with PID 10056 (started by mac in /Users/mac/Documents/workspace-spring-tool-suite-4-4.12.1.RELEASE/timesheet-devops)
+2021-11-17 15:20:53.241  INFO 10056 --- [main] t.e.t.TimesheetDevopsApplicationTests    : No active profile set, falling back to default profiles: default
+2021-11-17 15:20:53.979  INFO 10056 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-17 15:20:54.022  INFO 10056 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-17 15:20:54.132  INFO 10056 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-17 15:20:54.424  INFO 10056 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-17 15:20:54.872  INFO 10056 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-17 15:20:55.188  WARN 10056 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-17 15:20:55.644  INFO 10056 --- [main] t.e.t.TimesheetDevopsApplicationTests    : Started TimesheetDevopsApplicationTests in 2.549 seconds (JVM running for 2.989)
+2021-11-17 15:20:55.724  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : In method Add User
+2021-11-17 15:20:55.781  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur Ajoute
+2021-11-17 15:20:55.785  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : In Method retrieve all Users : 
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=8, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=9, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=10, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=11, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=12, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=13, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=14, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=15, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=16, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=17, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=18, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=19, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=20, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=21, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.879  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=22, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=23, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=24, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=25, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=26, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=27, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=28, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=29, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=30, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=31, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-06, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=32, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-06, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=33, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=34, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=35, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=36, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=37, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=38, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.880  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=39, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=40, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=41, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=42, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=43, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=44, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=45, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=46, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=47, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=48, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=49, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=50, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=51, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=52, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=53, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=54, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=55, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=56, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=57, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=58, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=59, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=60, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=61, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.881  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=62, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=63, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=64, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=65, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=66, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=67, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=68, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=69, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=70, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=71, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=72, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=73, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=74, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=ADMINISTRATEUR] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=75, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=76, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=77, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=78, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=79, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=80, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=81, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=82, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=TECHNICIEN] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=83, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.882  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=84, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.883  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=85, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 15:20:55.883  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=86, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-17, role=INGENIEUR] : trouve:
+2021-11-17 15:20:55.883  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Out of Method retrieve all users with success
+2021-11-17 15:20:55.885  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : Recherche user en cours...
+2021-11-17 15:20:55.893  INFO 10056 --- [main] t.e.t.services.UserServiceImpl           : user User [id=10, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] retrieved
+2021-11-17 15:20:55.900  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Into Method Add Department! 
+2021-11-17 15:20:55.906  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Department added! 
+2021-11-17 15:20:55.909  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Into Method Update Department! 
+2021-11-17 15:20:55.911  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Department Updated! 
+2021-11-17 15:20:55.916  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Searching department ...
+2021-11-17 15:20:55.927  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Department tn.esprit.timesheetdevops.entities.Departement@2d230cff found
+2021-11-17 15:20:55.929  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : In method Retrrieve Departements!
+2021-11-17 15:20:56.032  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Connexion a la base de donnée effectuée! 
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@420b55ed
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@f237ae7
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@42edde25
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@6fe5da76
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@77d95e5a
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@6339e604
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@4f8900b0
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@e7e455d
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@33e8e146
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1f4d38f9
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@18463720
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@64eeddd8
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@10f8e2d2
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@4f525e13
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5d404a3c
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@af9dd34
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@48692405
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@151659dd
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@4a58e0e9
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@e8c84eb
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@f44d033
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@283bb8b7
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@25e95af1
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@4fa8297b
+2021-11-17 15:20:56.033  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@6644bdf5
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@13cf5f8a
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@7c9ea1d0
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@72f3acc9
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@319b1c77
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@584136c1
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@51d88c38
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3ea2f72e
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@57b33c29
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@615ef20
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@13390a96
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3a8b9458
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@7497a554
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5dd23809
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@664f49f
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@60ab895f
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@295f2d1b
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@65015a49
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@44e08a7a
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@78bd02c8
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@28dacf31
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@47e60b71
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@795faad
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@17ae13d5
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@69f3e556
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1eb9d69a
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@36511772
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@51869ad6
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@27a90ce5
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@77f4038c
+2021-11-17 15:20:56.034  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@49a06087
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2c15034f
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@43b4ec0c
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@148b6f95
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5ee581db
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5a6efe33
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3e5ebdfe
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@71668a67
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3ff26c9
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2ecdcfe3
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@65b73689
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2047adea
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5af40e45
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1a06602f
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@46591e98
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5b6cc344
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2110684a
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@83e635f
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@61d011e
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3b56947a
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1926f962
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@62794582
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@c82ad22
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3f80d8c
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2d3b0978
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5c60c08
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1cb44a2f
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5fe3b058
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2a661215
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1f75fd1d
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@212e39ee
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@638d2ce3
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@79617c3d
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@49cceb19
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@197d5a87
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@131d977f
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@616f81b5
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@4f552aa2
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3c8fe8ad
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@43d6262c
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5e2975ca
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@38cf4497
+2021-11-17 15:20:56.035  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@7b4619a3
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@9d3a7a1
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1c411474
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5e681097
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@152891f8
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1d2c253
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@15a484a9
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@b56c222
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5a2035e1
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@4df7b4ac
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@7c47e077
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@41bd6a0f
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1ae9d0e4
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@6acb45c1
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@294c44b7
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@30bbe83
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@57b130f6
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@67e4928c
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2cc61b3b
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@72e75786
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2c0fefac
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@6fbc7853
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@733fa95c
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3b2c8bda
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@688d619c
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@647ff23e
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@6a04d2a4
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@35a9e665
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@362be0cd
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2dde0a34
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@61836cd9
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1b632442
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@7227926b
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2f75a9b1
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@556aed22
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@57a982f9
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@19d3f6ad
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1b69fc07
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@19e801b5
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@24de63b
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@42d0e41
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@50f05307
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@9cc0505
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@645d4639
+2021-11-17 15:20:56.036  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@8ee03f5
+2021-11-17 15:20:56.037  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5ad40184
+2021-11-17 15:20:56.037  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3359c3f6
+2021-11-17 15:20:56.037  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3d3b272a
+2021-11-17 15:20:56.037  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@45b27ad3
+2021-11-17 15:20:56.037  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3f908bc0
+2021-11-17 15:20:56.038  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@422ba9b7
+2021-11-17 15:20:56.038  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@26cdd4af
+2021-11-17 15:20:56.038  INFO 10056 --- [main] t.e.t.s.D.DepartementServiceImpl         : Out of method Retrieve departements
+2021-11-17 17:16:29.501  INFO 41534 --- [main] t.e.t.TimesheetDevopsApplicationTests    : Starting TimesheetDevopsApplicationTests using Java 1.8.0_312 on MACs-MacBook-Pro.local with PID 41534 (started by mac in /Users/mac/Documents/workspace-spring-tool-suite-4-4.12.1.RELEASE/timesheet-devops)
+2021-11-17 17:16:29.502  INFO 41534 --- [main] t.e.t.TimesheetDevopsApplicationTests    : No active profile set, falling back to default profiles: default
+2021-11-17 17:16:30.179  INFO 41534 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-11-17 17:16:30.209  INFO 41534 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.32.Final
+2021-11-17 17:16:30.324  INFO 41534 --- [main] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-11-17 17:16:30.638  INFO 41534 --- [main] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2021-11-17 17:16:31.126  INFO 41534 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-11-17 17:16:31.462  WARN 41534 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-11-17 17:16:31.850  INFO 41534 --- [main] t.e.t.TimesheetDevopsApplicationTests    : Started TimesheetDevopsApplicationTests in 2.513 seconds (JVM running for 3.05)
+2021-11-17 17:16:31.909  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : In method Add User
+2021-11-17 17:16:31.969  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur Ajoute
+2021-11-17 17:16:31.974  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : In Method retrieve all Users : 
+2021-11-17 17:16:32.075  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=8, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=9, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=10, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=11, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=12, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=13, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=14, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=15, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=16, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=17, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=18, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=19, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=20, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=21, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=22, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=23, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=24, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=25, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=26, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=27, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.076  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=28, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.077  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=29, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.077  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=30, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.077  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=31, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-06, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.077  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=32, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-06, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.077  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=33, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.077  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=34, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.077  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=35, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.077  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=36, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.077  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=37, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.077  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=38, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.078  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=39, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.078  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=40, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.078  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=41, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.078  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=42, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-13, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.079  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=43, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.079  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=44, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.079  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=45, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.079  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=46, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.079  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=47, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.079  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=48, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.079  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=49, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.079  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=50, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.080  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=51, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.080  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=52, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.080  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=53, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.080  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=54, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.080  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=55, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.080  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=56, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.080  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=57, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.080  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=58, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.080  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=59, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.080  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=60, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.080  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=61, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.080  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=62, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.080  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=63, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.081  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=64, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.081  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=65, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.081  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=66, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.081  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=67, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.081  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=68, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.081  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=69, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.082  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=70, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.082  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=71, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.082  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=72, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.082  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=73, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.082  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=74, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=ADMINISTRATEUR] : trouve:
+2021-11-17 17:16:32.082  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=75, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-14, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.082  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=76, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.082  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=77, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.082  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=78, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.083  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=79, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.083  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=80, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.083  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=81, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.083  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=82, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.083  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=83, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.085  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=84, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.085  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=85, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-15, role=CHEF_DEPARTEMENT] : trouve:
+2021-11-17 17:16:32.085  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=86, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-17, role=INGENIEUR] : trouve:
+2021-11-17 17:16:32.086  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Utilisateur User [id=87, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-17, role=TECHNICIEN] : trouve:
+2021-11-17 17:16:32.086  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Out of Method retrieve all users with success
+2021-11-17 17:16:32.088  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : Recherche user en cours...
+2021-11-17 17:16:32.103  INFO 41534 --- [main] t.e.t.services.UserServiceImpl           : user User [id=10, firstName=Mourad, lastName=Tlili, dateNaissance=2021-11-05, role=ADMINISTRATEUR] retrieved
+2021-11-17 17:16:32.116  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Into Method Add Department! 
+2021-11-17 17:16:32.124  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Department added! 
+2021-11-17 17:16:32.127  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Into Method Update Department! 
+2021-11-17 17:16:32.131  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Department Updated! 
+2021-11-17 17:16:32.136  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Searching department ...
+2021-11-17 17:16:32.151  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Department tn.esprit.timesheetdevops.entities.Departement@62360a68 found
+2021-11-17 17:16:32.153  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : In method Retrrieve Departements!
+2021-11-17 17:16:32.371  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Connexion a la base de donnée effectuée! 
+2021-11-17 17:16:32.372  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5bf523e3
+2021-11-17 17:16:32.372  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@8d29719
+2021-11-17 17:16:32.372  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@65259c53
+2021-11-17 17:16:32.372  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@4bff28e7
+2021-11-17 17:16:32.372  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@39e7e040
+2021-11-17 17:16:32.372  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2591d23a
+2021-11-17 17:16:32.372  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@6c1f15df
+2021-11-17 17:16:32.372  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5e95b0ab
+2021-11-17 17:16:32.372  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5876bed9
+2021-11-17 17:16:32.373  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@73ddb7ef
+2021-11-17 17:16:32.373  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@67f8f5a6
+2021-11-17 17:16:32.373  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@141b011a
+2021-11-17 17:16:32.373  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@7976e536
+2021-11-17 17:16:32.373  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@47ffdbba
+2021-11-17 17:16:32.373  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@ba0018e
+2021-11-17 17:16:32.373  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@45311a99
+2021-11-17 17:16:32.373  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@7037a680
+2021-11-17 17:16:32.373  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@492c8137
+2021-11-17 17:16:32.373  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@420b55ed
+2021-11-17 17:16:32.373  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@f237ae7
+2021-11-17 17:16:32.373  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@42edde25
+2021-11-17 17:16:32.373  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@6fe5da76
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@77d95e5a
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@6339e604
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@4f8900b0
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@e7e455d
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@33e8e146
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1f4d38f9
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@18463720
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@64eeddd8
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@10f8e2d2
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@66048ac4
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@4f525e13
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5d404a3c
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@af9dd34
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@48692405
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@151659dd
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@4a58e0e9
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@e8c84eb
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@f44d033
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@283bb8b7
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@25e95af1
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@4fa8297b
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@6644bdf5
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@13cf5f8a
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@7c9ea1d0
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@72f3acc9
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@319b1c77
+2021-11-17 17:16:32.374  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@584136c1
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@51d88c38
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3ea2f72e
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@57b33c29
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@615ef20
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@13390a96
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3a8b9458
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@7497a554
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5dd23809
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@664f49f
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@60ab895f
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@295f2d1b
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@65015a49
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@44e08a7a
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@78bd02c8
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@28dacf31
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@47e60b71
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@795faad
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@17ae13d5
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@69f3e556
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1eb9d69a
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@36511772
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@51869ad6
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@27a90ce5
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@77f4038c
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@49a06087
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2c15034f
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@43b4ec0c
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@148b6f95
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5ee581db
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5a6efe33
+2021-11-17 17:16:32.375  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3e5ebdfe
+2021-11-17 17:16:32.376  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@71668a67
+2021-11-17 17:16:32.376  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3ff26c9
+2021-11-17 17:16:32.376  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2ecdcfe3
+2021-11-17 17:16:32.376  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@65b73689
+2021-11-17 17:16:32.376  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2047adea
+2021-11-17 17:16:32.376  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5af40e45
+2021-11-17 17:16:32.376  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1a06602f
+2021-11-17 17:16:32.376  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@46591e98
+2021-11-17 17:16:32.376  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5b6cc344
+2021-11-17 17:16:32.376  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2110684a
+2021-11-17 17:16:32.376  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@83e635f
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@61d011e
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3b56947a
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1926f962
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@62794582
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@c82ad22
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3f80d8c
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2d3b0978
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5c60c08
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1cb44a2f
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5fe3b058
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2a661215
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1f75fd1d
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@212e39ee
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@638d2ce3
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@79617c3d
+2021-11-17 17:16:32.377  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@49cceb19
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@197d5a87
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@131d977f
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@616f81b5
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@4f552aa2
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3c8fe8ad
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@43d6262c
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5e2975ca
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@38cf4497
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@7b4619a3
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@9d3a7a1
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1c411474
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5e681097
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@152891f8
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1d2c253
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@15a484a9
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@b56c222
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@5a2035e1
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@4df7b4ac
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@7c47e077
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@41bd6a0f
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1ae9d0e4
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@6acb45c1
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@294c44b7
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@30bbe83
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@57b130f6
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@67e4928c
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2cc61b3b
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@72e75786
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2c0fefac
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@6fbc7853
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@733fa95c
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@3b2c8bda
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@688d619c
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@647ff23e
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@6a04d2a4
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@35a9e665
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@362be0cd
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2dde0a34
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@61836cd9
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@1b632442
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@7227926b
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@2f75a9b1
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Departement tn.esprit.timesheetdevops.entities.Departement@556aed22
+2021-11-17 17:16:32.378  INFO 41534 --- [main] t.e.t.s.D.DepartementServiceImpl         : Out of method Retrieve departements
